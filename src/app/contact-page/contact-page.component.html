@@ -10,7 +10,7 @@
   <div class="main-contact-div">
     <div class="contact-details-div">
       <h5>Enter Your Details</h5>
-      <form name="mhlozayo-contact-form" netlify>
+      <form name="mhlozayo-contact-form" method="post" netlify>
         <div>
           <input
             name="full-name"
@@ -18,6 +18,7 @@
             id="full-name"
             type="text"
             placeholder="Full Name"
+            required
           />
         </div>
         <div>
@@ -27,6 +28,7 @@
             id="Email-Adress"
             type="Email Adress"
             placeholder="Email Adress"
+            required
           />
         </div>
         <div>
@@ -36,6 +38,7 @@
             id="Phone-Number"
             type="text"
             placeholder="Phone Number"
+            required
           />
         </div>
       </form>
@@ -44,12 +47,13 @@
       <h5>Get In Touch</h5>
       <div>
         <input
+          name="message"
           class="message-input"
           id="full-name"
           type="text"
           placeholder="Leave Us a Message..."
         />
-        <button class="btn btn-send">Send</button>
+        <button type="submit" class="btn btn-send">Submit</button>
       </div>
     </div>
   </div>
