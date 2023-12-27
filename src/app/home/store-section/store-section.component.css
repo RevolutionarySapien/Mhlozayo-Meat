@@ -83,7 +83,7 @@
 
   .store-sec {
     background-size: 190rem;
-    background-position-y: bottom;
+    /* background-position-y: bottom; */
   }
 }
 

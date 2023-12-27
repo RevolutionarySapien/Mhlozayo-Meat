@@ -44,7 +44,7 @@
 img {
   min-width: 2rem;
   height: 100%;
-  float: left;
+  /* float: left; */
 }
 
 .our-story {

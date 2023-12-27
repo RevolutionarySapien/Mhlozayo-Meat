@@ -17,7 +17,8 @@ app-navbar {
 }
 @media (max-width: 600px) {
   .hero-bg {
-    background-size: 200rem;
-    background-position-y: bottom;
+    background-image: url("src/assets/imgs/hero-background-res.jpg");
+    /* background-size: 200rem; */
+    /* background-position-y: bottom; */
   }
 }
