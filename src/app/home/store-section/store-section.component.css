@@ -21,12 +21,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  justify-content: center;
-  position: relative;
 }
 
 .item-header {
-  /* display: inline; */
   background-color: rgba(255, 36, 36, 0.916);
   color: white;
   height: 3.2rem;
@@ -47,23 +44,20 @@
 
 .container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, 15rem); */
+
   grid-template-columns: repeat(4, 15rem);
   grid-gap: 2rem;
-  /* margin: 0; */
+
   padding-bottom: 5rem;
   padding-top: 2rem;
   justify-content: center;
   max-width: 100rem;
-  /* overflow-x: scroll; */
 }
 
 .beef-container {
 }
 
 .chicken-container {
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fit, 15rem); */
   grid-gap: 1rem;
 }
 
@@ -76,7 +70,6 @@
 .combo-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 20rem);
-  /* overflow-x: auto; */
   grid-gap: 2rem;
   padding-top: 2rem;
   justify-content: center;
@@ -86,7 +79,6 @@
   .container {
     grid-template-columns: 15rem 15rem;
     padding-bottom: 5rem;
-    /* grid-template-rows: auto;  */
   }
 }
 

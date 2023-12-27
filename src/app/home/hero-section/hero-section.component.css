@@ -6,7 +6,7 @@
   background-attachment: fixed;
   background-position: center;
   float: top;
-  position: relative;
+  /* position: relative; */
 }
 
 app-navbar {
