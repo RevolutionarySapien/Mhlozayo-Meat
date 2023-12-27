@@ -1,5 +1,6 @@
 .close-section {
-  height: 100vh;
+  height: 90rem;
+  /* height: 100vh; */
   /* background-image: url("src/assets/imgs/close-section-bg-2.jpg"); */
   background-image: url("src/assets/imgs/close-section-opt-2.jpg");
   background-size: cover;
@@ -32,6 +33,13 @@ p {
 
 .inyama-p {
   margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .close-section {
+    background-size: 150rem;
+    background-position-y: bottom;
+  }
 }
 
 @media (max-width: 360px) {

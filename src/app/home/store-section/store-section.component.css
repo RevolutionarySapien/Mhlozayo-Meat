@@ -15,7 +15,7 @@
 .store-sec {
   height: fit-content;
   padding-bottom: 4rem;
-  background-image: linear-gradient(to right bottom, #0b08089d, #43101030),
+  background-image: linear-gradient(to right bottom, #0b0808c2, #43101025),
     url("src/assets/imgs/section-2-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,6 +79,11 @@
   .container {
     grid-template-columns: 15rem 15rem;
     padding-bottom: 5rem;
+  }
+
+  .store-sec {
+    background-size: 190rem;
+    background-position-y: bottom;
   }
 }
 

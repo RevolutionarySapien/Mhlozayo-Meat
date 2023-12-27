@@ -15,3 +15,9 @@ app-navbar {
   /* position: fixed; */
   /* top: 2; */
 }
+@media (max-width: 600px) {
+  .hero-bg {
+    background-size: 200rem;
+    background-position-y: bottom;
+  }
+}
