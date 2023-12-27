@@ -1,0 +1,21 @@
+<div class="item-div">
+  <img
+    src="{{ cartComboElements.imgUrl }}"
+    height="270rem"
+    width="270rem"
+    alt="image of burger"
+    class="combo-img"
+  />
+  <h4 class="item-name">{{ cartComboElements.name }}</h4>
+  <p class="details" *ngFor="let detail of cartComboElements.details">
+    {{ detail.mince }} {{ detail.sausage }} {{ detail.burgerPatties }}
+    {{ detail.stewingBeef }} {{ detail.chickenTrays }}
+    {{ detail.periPeriSausage }}
+  </p>
+  <!-- <ul>
+    <li>
+    </li>
+  </ul> -->
+  <!-- <p class="price"><span>R</span>{{ cartComboElements.price }}</p> -->
+  <!-- <div class="add-to-cart">Add to Cart</div> -->
+</div>

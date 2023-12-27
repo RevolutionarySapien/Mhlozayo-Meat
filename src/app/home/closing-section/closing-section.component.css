@@ -1,0 +1,45 @@
+.close-section {
+  height: 100vh;
+  /* background-image: url("src/assets/imgs/close-section-bg-2.jpg"); */
+  background-image: url("src/assets/imgs/close-section-opt-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+  letter-spacing: 0.6rem;
+  /* margin: 0 auto; */
+  margin-top: 5.5rem;
+  margin-bottom: 2rem;
+  font-family: "Jacques Francois", "sans-serif";
+}
+
+p {
+  font-family: "Jacques Francois", "sans-serif";
+  /* margin: 0 auto; */
+  text-align: center;
+  /* line-height: 3.5rem; */
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.inyama-p {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 360px) {
+  h2 {
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

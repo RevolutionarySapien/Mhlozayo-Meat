@@ -1,0 +1,31 @@
+<div class="item-div">
+  <img
+    src="{{ cartBeefElements.imgUrl }}"
+    height="200rem"
+    alt="image of burger"
+    class="product-img"
+  />
+  <h4 class="item-name" #elementName>{{ cartBeefElements.name }}</h4>
+  <p class="details">{{ cartBeefElements.details }}</p>
+  <!-- <p class="price" #elementPrice><span>R</span>{{ cartBeefElements.price }}</p> -->
+  <div>
+    <!-- <button class="add-to-cart" (click)="njefornow(elementPrice)">
+      Add to Cart
+    </button> -->
+  </div>
+</div>
+
+<!-- <section class="store-sec">
+    <div class="our-options"><p>OUR OPTIONS</p></div>
+  
+    <div class="store-invent container">
+      <ul>
+        <li>
+           <app-cart-element
+        *ngFor="let cartElement of cartBeefElements"
+      [cartBeefElements]="cartElement"></app-cart-element>
+        </li>
+      </ul>
+     
+    </div>
+  </section> -->

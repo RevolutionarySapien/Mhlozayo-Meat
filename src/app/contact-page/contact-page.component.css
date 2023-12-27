@@ -1,0 +1,131 @@
+.contact-section {
+  height: 100%;
+  overflow: hidden;
+  background-image: url("src/assets/imgs/section-2-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-div {
+  height: 30vh;
+  position: relative;
+}
+
+.img-div p {
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.email-phone-div {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: white;
+  word-spacing: 2rem;
+  letter-spacing: 2px;
+}
+
+.email-phone-div span {
+  color: rgb(238, 164, 164);
+}
+
+.main-contact-div {
+  display: flex;
+  justify-content: center;
+  color: white;
+  max-width: 60rem;
+  margin: 0 3rem 6rem 3rem;
+}
+
+.main-contact-div h5 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.contact-details-div {
+  margin-right: 5rem;
+  padding-right: 5rem;
+  /* border-width: 4px; */
+  border-right: solid 2px;
+  border-color: aliceblue;
+}
+
+.input {
+  width: 20rem;
+  height: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.message-input {
+  display: flex;
+  align-items: start;
+  width: 20rem;
+  height: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.btn-send {
+  background-color: red;
+  color: white;
+  /* width: 5rem; */
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+}
+
+@media (max-width: 630px) {
+  html {
+    /* font-size: 1px; */
+  }
+  .main-contact-div {
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+  }
+  .contact-details-div {
+    border: none;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+    height: fit-content;
+  }
+
+  .contact-details-div {
+    padding: 0;
+    margin: 0;
+  }
+  .email-phone-div {
+    margin-bottom: 1rem;
+  }
+  .main-contact-div h5 {
+    margin-top: 2px;
+  }
+  .input,
+  .message-input {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 417px) {
+  .input,
+  .message-input {
+    width: 22rem;
+  }
+}

@@ -1,0 +1,17 @@
+.hero-bg {
+  height: 100vh;
+  background-image: url("src/assets/imgs/hero-background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  float: top;
+  position: relative;
+}
+
+app-navbar {
+  float: top;
+  /* opacity: 0.3; */
+  /* position: fixed; */
+  /* top: 2; */
+}

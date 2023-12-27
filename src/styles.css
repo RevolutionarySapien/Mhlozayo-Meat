@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  overflow: auto;
+}
+
+/*///////////////////
+below 1080px
+///////////////////*/
+
+@media (max-width: 67em) {
+  html {
+    font-size: 14px;
+  }
+  .product-img {
+    height: 12rem;
+  }
+  .combo-img {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+
+/*///////////////////
+below 992px
+///////////////////*/
+
+@media (max-width: 62em) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 52em) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 13px;
+  }
+}

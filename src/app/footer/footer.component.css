@@ -1,0 +1,12 @@
+footer {
+  height: 2rem;
+  background-color: rgb(47, 45, 45);
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+p {
+  margin: 0 auto;
+}

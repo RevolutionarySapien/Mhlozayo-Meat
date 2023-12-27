@@ -1,0 +1,36 @@
+<section class="store-sec">
+  <a name="#OnlineShop"></a>
+  <div class="our-options"><p>OUR OPTIONS</p></div>
+
+  <div class="beef-header item-header"><p>BEEF</p></div>
+  <div class="store-invent beef-container container">
+    <app-cart-element
+      *ngFor="let cartElement of beefElements"
+      [cartBeefElements]="cartElement"
+    ></app-cart-element>
+  </div>
+
+  <div class="chicken-header item-header"><p>CHICKEN</p></div>
+  <div class="store-invent container">
+    <app-cart-element
+      *ngFor="let cartElement of chickenElements"
+      [cartBeefElements]="cartElement"
+    ></app-cart-element>
+  </div>
+
+  <div class="lamb-header item-header"><p>LAMB</p></div>
+  <div class="store-invent container">
+    <app-cart-element
+      *ngFor="let cartElement of lambElements"
+      [cartBeefElements]="cartElement"
+    ></app-cart-element>
+  </div>
+
+  <div class="combo-header item-header"><p>COMBOS</p></div>
+  <div class="store-invent combo-container">
+    <app-combo-elements
+      *ngFor="let comboElement of comboElements"
+      [cartComboElements]="comboElement"
+    ></app-combo-elements>
+  </div>
+</section>

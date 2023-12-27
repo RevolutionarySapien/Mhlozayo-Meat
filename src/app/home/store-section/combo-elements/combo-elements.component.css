@@ -1,0 +1,46 @@
+.item-div {
+  background-color: rgb(225, 224, 224);
+  max-width: 20rem;
+  min-height: 37rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.item-div img {
+  margin: 1rem 0 0.2rem 0;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-name {
+  margin-bottom: 1rem;
+}
+
+.details {
+  margin-bottom: 0;
+  line-height: 1.8rem;
+}
+
+.add-to-cart {
+  /* margin-top: 10%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 1rem;
+  padding: 0 0.8rem 0 0.8rem;
+  width: 12rem;
+  height: 2rem;
+}
+
+.price {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+@media (max-width: 55px) {
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about-us {
+  background-color: red;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: aliceblue;
+}
+
+.about-section {
+  height: 100%;
+  background-image: linear-gradient(to right bottom, #0b0808ac, #431010bf),
+    url("src/assets/imgs/section-2-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: grayscale(78%);
+  display: flex;
+  justify-content: center;
+}
+
+.main-div {
+  display: flex;
+  /* margin: 0 1rem; */
+  margin: 6rem 3rem;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  /* height: fit-content; */
+}
+
+.text-div {
+  color: white;
+  width: 30rem;
+  padding-left: 2rem;
+  text-align: justify;
+}
+
+img {
+  min-width: 2rem;
+  height: 100%;
+  float: left;
+}
+
+.our-story {
+  color: aliceblue;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  height: auto;
+  font-size: 2rem;
+  position: absolute;
+  /* margin: 0 auto; */
+}
+
+.img-div {
+  width: auto;
+  height: 30rem;
+  color: aliceblue;
+}
+
+/*///////////////////
+below 992px
+///////////////////*/
+
+@media (max-width: 31.8em) {
+  .text-div {
+    margin: 0 1rem;
+    width: auto;
+    padding-left: 0.4rem;
+    line-height: 1.6rem;
+  }
+
+  .img-div {
+    width: auto;
+    height: 25rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-div {
+    /* max-width: 60rem; */
+    flex-direction: column;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    overflow: hidden;
+    flex-wrap: nowrap;
+  }
+}
+
+/*///////////////////
+below 768px
+///////////////////*/
+
+@media (max-width: 48em) {
+  .main-div {
+    /* flex-direction: column; */
+  }
+
+  .text-div {
+  }
+
+  .img-div {
+    /* float: right;
+    height: 19rem;
+    width: auto;
+    margin: 2rem 0; */
+  }
+}

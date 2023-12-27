@@ -1,0 +1,82 @@
+nav {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  overflow: hidden;
+  height: 9rem;
+  width: auto;
+  flex-wrap: nowrap;
+  gap: 38rem;
+  justify-self: center;
+}
+
+.navbar-brand {
+  position: relative;
+  height: 7rem;
+  width: 9rem;
+}
+
+a.nav-link {
+  font-size: 1.2rem;
+  height: 4rem;
+}
+
+div.offcanvas-header {
+  background-color: rgba(171, 52, 52, 0.731);
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  gap: 10px;
+}
+
+.logo {
+  height: auto;
+}
+
+.navbar-togller {
+  margin-left: 33rem;
+}
+
+/*///////////////////
+below 1080px
+///////////////////*/
+
+@media (max-width: 75em) {
+  nav .container {
+    gap: 30rem;
+  }
+}
+
+/*///////////////////
+below 992px
+///////////////////*/
+
+@media (max-width: 62em) {
+  html {
+    font-size: 12px;
+  }
+
+  nav .container {
+    height: 14rem;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 4rem;
+    width: 100%;
+  }
+  nav {
+    height: 14rem;
+  }
+  img {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 360px) {
+  nav .container {
+    gap: 4px;
+  }
+}
