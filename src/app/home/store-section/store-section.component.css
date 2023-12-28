@@ -82,7 +82,8 @@
   }
 
   .store-sec {
-    background-image: url("src/assets/imgs/section-2-background-res.jpg");
+    background-image: linear-gradient(to right bottom, #0b0808ef, #210b0bb1),
+      url("src/assets/imgs/section-2-background-res.jpg");
     background-size: 190rem;
     /* background-position-y: bottom; */
   }
