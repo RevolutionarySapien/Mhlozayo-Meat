@@ -13,6 +13,13 @@
   justify-content: center;
 }
 
+.email-p,
+.email-p {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .img-div {
   height: 30vh;
   position: relative;
@@ -42,7 +49,7 @@ img {
   letter-spacing: 2px;
 }
 
-.email-phone-div span {
+.email-span {
   color: rgb(238, 164, 164);
 }
 
