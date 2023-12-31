@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-footer-component',
   template: `
     <footer>
-      <p>Copyright Mhlozayo Meat - all rights reserved | +2778 966 5528</p>
+      <p>Copyright Mhlozayo Meat - all rights reserved | +27 69 905 3334</p>
     </footer>
   `,
   styleUrls: ['./footer.component.css'],
