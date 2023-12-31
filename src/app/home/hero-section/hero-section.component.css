@@ -5,8 +5,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  float: top;
-  /* position: relative; */
 }
 
 app-navbar {
@@ -19,7 +17,8 @@ app-navbar {
   .hero-bg {
     background-image: url("src/assets/imgs/hero-background-res2.jpg");
     background-size: cover;
-    background-position: center;
+    background-repeat: repeat;
+    background-position: top;
     /* background-position-y: top; */
   }
 }
