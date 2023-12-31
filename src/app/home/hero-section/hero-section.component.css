@@ -17,6 +17,6 @@ app-navbar {
   .hero-bg {
     background-image: url("src/assets/imgs/hero-background-res2.jpg");
     background-size: 62rem;
-    /* background-position-y: top; */
+    background-position-y: top;
   }
 }
