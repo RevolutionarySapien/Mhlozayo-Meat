@@ -35,6 +35,10 @@
 }
 
 .item-header p {
+  overflow-y: hidden;
+}
+
+.item-header p {
   margin-bottom: 0;
 }
 
