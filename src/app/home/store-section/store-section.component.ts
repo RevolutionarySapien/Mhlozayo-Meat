@@ -12,7 +12,6 @@ export class StoreSectionComponent {
       name: 'Burgers',
       details: 'pack of 4',
       imgUrl: 'assets/cart-imgs/burger-option.jpg',
-      // imgUrl: 'assets/imgs/logo.svg',
       // price: 190,
     },
 

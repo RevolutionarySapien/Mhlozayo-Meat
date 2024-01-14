@@ -22,6 +22,18 @@ nav {
 a.nav-link {
   font-size: 1.2rem;
   height: 4rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  overflow-x: hidden;
+}
+
+.align-top {
+  overflow-x: hidden;
 }
 
 div.offcanvas-header {
@@ -34,7 +46,7 @@ ul {
 }
 
 .logo {
-  height: auto;
+  /* height: auto; */
 }
 
 .navbar-togller {
@@ -47,7 +59,24 @@ below 1080px
 
 @media (max-width: 75em) {
   nav .container {
-    gap: 30rem;
+    gap: 25rem;
+  }
+  .logo {
+    height: 20px;
+  }
+  a.nav-link {
+    /* width: 8rem; */
+    overflow-x: hidden;
+  }
+}
+
+/*///////////////////
+below 992px
+///////////////////*/
+
+@media (max-width: 67em) {
+  .container {
+    height: 10rem;
   }
 }
 
@@ -71,7 +100,7 @@ below 992px
     height: 14rem;
   }
   img {
-    height: 20rem;
+    height: 15rem;
   }
 }
 
