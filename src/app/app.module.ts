@@ -14,12 +14,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponentComponent } from './home/home-component.component';
 import { CartElementComponent } from './home/store-section/cart-element/cart-element.component';
 import { ComboElementsComponent } from './home/store-section/combo-elements/combo-elements.component';
+import { CartComponent } from './home/cart/cart.component';
+import { CartServiceService } from './home/cart-service.service';
 
 const appRoutes: Routes = [
   { path: 'about-us', component: AboutUsPageComponent },
   { path: '', component: HomeComponentComponent },
   { path: 'contact-us', component: ContactPageComponent },
   { path: 'store-section', component: StoreSectionComponent },
+  { path: 'cart', component: CartComponent },
 ];
 
 @NgModule({
@@ -35,9 +38,11 @@ const appRoutes: Routes = [
     HomeComponentComponent,
     CartElementComponent,
     ComboElementsComponent,
+    CartComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
-  providers: [],
+  providers: [CartServiceService],
+
   bootstrap: [AppComponent],
 })
 export class AppModule {}

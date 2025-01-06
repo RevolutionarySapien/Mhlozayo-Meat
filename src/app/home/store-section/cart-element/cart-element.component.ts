@@ -1,12 +1,19 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Injectable } from '@angular/core';
+import { CartServiceService } from '../../cart-service.service';
 
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-cart-element',
   templateUrl: './cart-element.component.html',
   styleUrls: ['./cart-element.component.css'],
 })
 export class CartElementComponent implements OnInit {
-  constructor() {}
+  constructor(private cartService: CartServiceService) {
+    this.cartService.cartElement = this.cartEls;
+  }
+  cartEls: { price: any; name: any; details: any; imgUrl: any };
 
   @Input() cartBeefElements: {
     name: string;
@@ -29,8 +36,17 @@ export class CartElementComponent implements OnInit {
     price: number;
   };
 
-  njefornow(price: any) {
-    console.log(price.textContent);
+  njefornow(price: any, name: any, details: any, imgUrl: any) {
+    // console.log([price.textContent, name.textContent, details.textContent]);
+    this.cartService.cartElement = {
+      price: price.textContent,
+      name: name.textContent,
+      details: details.textContent,
+      imgUrl: imgUrl.textContent,
+    };
+
+    console.log(this.cartService.cartElement);
+    // console.log(this.cartEls);
   }
   ngOnInit() {}
 }

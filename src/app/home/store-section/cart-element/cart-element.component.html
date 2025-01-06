@@ -6,12 +6,18 @@
     class="product-img"
   />
   <h4 class="item-name" #elementName>{{ cartBeefElements.name }}</h4>
-  <p class="details">{{ cartBeefElements.details }}</p>
-  <!-- <p class="price" #elementPrice><span>R</span>{{ cartBeefElements.price }}</p> -->
+  <p class="details" #elementDetails>{{ cartBeefElements.details }}</p>
+  <p class="price" #elementPrice><span>R</span>{{ cartBeefElements.price }}</p>
+  <p [style.display]="'none'" class="price" #imgSrc>
+    {{ cartBeefElements.imgUrl }}
+  </p>
   <div>
-    <!-- <button class="add-to-cart" (click)="njefornow(elementPrice)">
+    <button
+      class="add-to-cart"
+      (click)="njefornow(elementPrice, elementName, elementDetails, imgSrc)"
+    >
       Add to Cart
-    </button> -->
+    </button>
   </div>
 </div>
 

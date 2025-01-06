@@ -1,0 +1,25 @@
+<div class="cart-header">
+  <p class="cart-p">Cart</p>
+</div>
+<section class="cart-section">
+  <div class="cart-table-wrapper">
+    <table>
+      <tr>
+        <th></th>
+        <th>PRODUCT</th>
+        <th>PRICE</th>
+        <th>QUANTITY</th>
+        <th>SUBTOTAL</th>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{ cartEls.imgUrl }}" alt="image of {{ cartEls.name }}" />
+        </td>
+        <td>{{ cartEls.name }}</td>
+        <td>{{ cartEls.price }}</td>
+        <td>quantity</td>
+        <td>0.00</td>
+      </tr>
+    </table>
+  </div>
+</section>

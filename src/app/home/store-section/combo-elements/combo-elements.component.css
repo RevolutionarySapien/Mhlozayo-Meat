@@ -1,7 +1,7 @@
 .item-div {
   background-color: rgb(225, 224, 224);
   max-width: 20rem;
-  min-height: 37rem;
+  min-height: 42rem;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -27,9 +27,10 @@
 .add-to-cart {
   /* margin-top: 10%; */
   display: flex;
+  color: white;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.717);
   border-radius: 1rem;
   padding: 0 0.8rem 0 0.8rem;
   width: 12rem;

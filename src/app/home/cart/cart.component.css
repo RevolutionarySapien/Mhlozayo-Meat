@@ -1,0 +1,45 @@
+.cart-section {
+  height: 40rem;
+  background-image: linear-gradient(to right bottom, #0b0808ac, #0e0404a0),
+    url("src/assets/imgs/section-2-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: grayscale(78%);
+  display: flex;
+  justify-content: center;
+}
+
+.cart-table-wrapper {
+  width: 40rem;
+}
+
+.cart-header {
+  height: 3.5rem;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+
+.cart-p {
+  color: aliceblue;
+  display: inline-block;
+  margin: 0;
+  margin-left: 4rem;
+}
+
+table img {
+  height: 4rem;
+  width: 4rem;
+}
+
+table,
+td {
+  border: 2px solid white;
+}
+
+table {
+  color: aliceblue;
+  width: 100%;
+}

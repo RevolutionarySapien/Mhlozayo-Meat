@@ -12,28 +12,28 @@ export class StoreSectionComponent {
       name: 'Burgers',
       details: 'pack of 4',
       imgUrl: 'assets/cart-imgs/burger-option.jpg',
-      // price: 190,
+      price: 160,
     },
 
     {
       name: 'Stewing beef',
       details: 'pack of 4',
       imgUrl: 'assets/cart-imgs/stewing-beef.jpg',
-      // price: 120,
+      price: 120,
     },
 
     {
       name: 'Mince',
       details: 'pack of 4',
       imgUrl: 'assets/cart-imgs/mince.jpg',
-      // price: 120,
+      price: 150,
     },
 
     {
       name: 'Sausage',
       details: 'pack of 4',
       imgUrl: 'assets/cart-imgs/sausage-option.jpg',
-      // price: 120,
+      price: 140,
     },
   ];
 
@@ -42,28 +42,28 @@ export class StoreSectionComponent {
       name: 'Chicken Fillets',
       details: '600g-700g',
       imgUrl: 'assets/cart-imgs/chicken-fillets-option.jpg',
-      // price: 120,
+      price: 120,
     },
 
     {
       name: 'Chicken Pack',
-      details: '1.5kg',
+      details: '1kg',
       imgUrl: 'assets/cart-imgs/chicken-pack.jpg',
-      // price: 120,
+      price: 115,
     },
 
     {
       name: 'Chicken Thighs',
       details: '600g-700g',
       imgUrl: 'assets/cart-imgs/chicken-thighs-option.jpg',
-      // price: 120,
+      price: 120,
     },
 
     {
       name: 'Chicken wings',
       details: '500g-600g',
       imgUrl: 'assets/cart-imgs/chicken-wings.jpg',
-      // price: 120,
+      price: 120,
     },
   ];
   lambElements = [
@@ -71,28 +71,28 @@ export class StoreSectionComponent {
       name: 'Stewing Lamb',
       details: '1,2kg',
       imgUrl: 'assets/cart-imgs/stewing-lamb.jpg',
-      // price: 120,
+      price: 120,
     },
 
     {
       name: 'Lamb Shank',
       details: '600g',
       imgUrl: 'assets/cart-imgs/lamb-shank.jpg',
-      // price: 120,
+      price: 120,
     },
 
     {
       name: 'Lamb Rib',
       details: '1.5kg - 2kg',
       imgUrl: 'assets/cart-imgs/lamb-rib.jpg',
-      // price: 120,
+      price: 120,
     },
 
     {
       name: 'Lamb Leg',
       details: '1.3kg - 2kg',
       imgUrl: 'assets/cart-imgs/lamb-leg.jpg',
-      // price: 120,
+      price: 120,
     },
   ];
   comboElements = [
@@ -107,7 +107,7 @@ export class StoreSectionComponent {
         { stewingBeef: '2.5kg Stewing Beef' },
       ],
       imgUrl: 'assets/cart-imgs/combo.jpg',
-      // price: 600,
+      price: 650,
     },
 
     {
@@ -123,7 +123,7 @@ export class StoreSectionComponent {
         { periPeriSausage: '2 Trays Peri Peri Sausage' },
       ],
       imgUrl: 'assets/cart-imgs/combo.jpg',
-      // price: 750,
+      price: 800,
     },
 
     {
@@ -137,9 +137,10 @@ export class StoreSectionComponent {
         { stewingBeef: '2.5kg Stewing Beef' },
         { chickenTrays: '2 Trays Chicken' },
         { periPeriSausage: '2 Trays Peri Peri Sausage' },
+        { lambChops: '1.3kg Lamb Chops' },
       ],
       imgUrl: 'assets/cart-imgs/combo.jpg',
-      // price: 1300,
+      price: 1000,
     },
   ];
 }
