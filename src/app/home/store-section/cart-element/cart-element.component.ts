@@ -10,10 +10,9 @@ import { CartServiceService } from '../../cart-service.service';
   styleUrls: ['./cart-element.component.css'],
 })
 export class CartElementComponent implements OnInit {
-  constructor(private cartService: CartServiceService) {
-    this.cartService.cartElement = this.cartEls;
-  }
-  cartEls: { price: any; name: any; details: any; imgUrl: any };
+  constructor(private cartService: CartServiceService) {}
+
+  cartEls = [];
 
   @Input() cartBeefElements: {
     name: string;
@@ -37,16 +36,16 @@ export class CartElementComponent implements OnInit {
   };
 
   njefornow(price: any, name: any, details: any, imgUrl: any) {
-    // console.log([price.textContent, name.textContent, details.textContent]);
-    this.cartService.cartElement = {
+    // const idk =
+    this.cartEls.push({
       price: price.textContent,
       name: name.textContent,
       details: details.textContent,
       imgUrl: imgUrl.textContent,
-    };
+    });
 
-    console.log(this.cartService.cartElement);
-    // console.log(this.cartEls);
+    this.cartService.cartElement = [...this.cartEls];
+    console.log(this.cartEls);
   }
   ngOnInit() {}
 }

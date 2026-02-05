@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.empty-cart {
+  color: aliceblue;
+}
+
 .cart-table-wrapper {
   width: 40rem;
 }

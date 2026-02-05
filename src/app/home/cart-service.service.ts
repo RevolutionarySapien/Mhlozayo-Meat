@@ -5,5 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class CartServiceService {
   constructor() {}
-  cartElement: any;
+
+  cartElement: any[];
 }
